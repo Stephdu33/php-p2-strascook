@@ -17,7 +17,7 @@ For this one, just a simple example where users can choose one of their database
 define('APP_DB_HOST', 'your_db_host');
 define('APP_DB_NAME', 'your_db_name');
 define('APP_DB_USER', 'your_db_user_wich_is_not_root');
-define('APP_DB_PASSWORD', 'your_db_password');
+define('APP_DB_PASSWORD', 'your_db_password'); /* PROJET2 : nom database = 'stras_cook' */
 ```
 
 4. Import _database.sql_ in your SQL server, you can do it manually or use the _migration.php_ script which will import a _database.sql_ file.
